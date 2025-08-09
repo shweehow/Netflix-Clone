@@ -39,7 +39,15 @@
     }
 
     .navbar .dropdown{
-        @apply absolute;
+        @apply absolute hidden top-full right-0 w-max py-4 px-5 rounded-xs bg-gray-900 underline z-10;
+    }
+
+    .navbar .dropdown p{
+        @apply text-xs;
+    }
+
+    .navbar-profile:hover .dropdown{
+        @apply block;
     }
 }
 
