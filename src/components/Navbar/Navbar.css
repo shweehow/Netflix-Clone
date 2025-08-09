@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer components{
+    .navbar{
+        @apply fixed flex justify-between w-full py-5 px-[6%] text-gray-200 text-sm z-10;
+        background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
+    }
+
+    .navbar-l{
+        @apply flex items-center gap-12;
+    }
+
+    .navbar-l img{
+        @apply w-[90px];
+    }
+    
+    .navbar-l ul{
+        @apply flex gap-5;
+    }
+
+    .navbar-l ul li{
+        @apply cursor-pointer;
+    }
+
+    .navbar-r{
+        @apply flex gap-5 items-center;
+    }
+
+    .icons{
+        @apply w-5 cursor-pointer;
+    }
+
+    .profile{
+        @apply w-8 rounded-sm;
+    }
+
+    .navbar-profile{
+        @apply relative flex items-center gap-3 cursor-pointer;
+    }
+
+    .navbar .dropdown{
+        @apply absolute;
+    }
+}
+
+
+
+
