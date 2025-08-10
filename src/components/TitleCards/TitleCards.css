@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer components{
+    .title-cards{
+        @apply mt-12 mb-8;
+    }
+
+    .title-cards h2{
+        @apply mb-2;
+    }
+
+    .card-list{
+        @apply flex gap-3 overflow-x-scroll;
+    }
+    .card-list::-webkit-scrollbar{
+        @apply hidden;
+    }
+
+    .card-list img{
+        @apply w-60 rounded-sm cursor-pointer;
+    }
+
+    .card-list .card{
+        @apply relative flex-shrink-0;
+    }
+
+    .card-list .card p{
+        @apply absolute bottom-2 right-2;
+    }
+}
