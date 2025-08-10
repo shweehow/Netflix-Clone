@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer components{
+    .hero{
+        @apply relative;
+    }
+
+    .banner-img{
+        @apply w-full mask-l-from-0 to-75%;
+    }
+
+    .hero-caption{
+        @apply absolute w-full pl-[6%] bottom-0;
+    }
+
+    .caption-img{
+        @apply w-9/10 max-w-md mb-8;
+    }
+
+    .hero-caption p{
+        @apply max-w-2xl text-[17px] mb-5;
+    }
+
+    .hero-btns{
+        @apply flex gap-3 mb-12;
+    }
+
+    .hero-btns .btn{
+        @apply py-2 px-4 inline-flex items-center gap-2 text-sm text-black bg-white rounded-sm cursor-pointer;
+    }
+
+    .hero-btns .btn.dark-btn{
+        @apply text-white bg-gray-600/70;
+    }
+
+    .hero-btns .btn:hover{
+        @apply bg-white/75;
+    }
+
+    .hero-btns .btn.dark-btn:hover{
+        @apply bg-gray-600/40;
+    }
+
+    .hero-btns .btn img{
+        @apply w-6;
+    }
+}
