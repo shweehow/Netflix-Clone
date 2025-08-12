@@ -44,4 +44,8 @@
     .hero-btns .btn img{
         @apply w-6;
     }
+
+    .more-cards{
+        @apply pl-[6%];
+    }
 }
