@@ -2,7 +2,7 @@
 
 @layer components{
     .login{
-        @apply py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover bg-center;
+        @apply py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
     }
 
     .login-logo{
@@ -35,5 +35,13 @@
 
     .remember input{
         @apply w-4 h-4;
+    }
+
+    .form-switch{
+        @apply mt-10 text-gray-500 text-xs;
+    }
+
+    .form-switch span{
+        @apply ml-1 text-white font-medium cursor-pointer;
     }
 }
