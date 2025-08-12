@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer components{
+    .login{
+        @apply py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover bg-center;
+    }
+
+    .login-logo{
+        @apply w-40;
+    }
+
+    .login-form{
+        @apply w-full max-w-[400px] p-13 m-auto rounded-sm bg-black/75;
+    }
+
+    .login-form h1{
+        @apply text-2xl font-semibold mb-5;
+    }
+
+    .login-form input{
+        @apply w-full h-12 my-2.5 py-2.5 px-4 rounded-sm bg-neutral-800 text-white text-xs font-medium outline-0;
+    }
+
+    .login-form button{
+        @apply w-full p-3 mt-5 rounded-sm bg-[#e50914] text-white text-sm font-semibold cursor-pointer;
+    }
+
+    .form-help{
+        @apply flex items-center justify-between text-gray-400 text-xs;
+    }
+
+    .remember{
+        @apply flex items-center gap-1;
+    }
+
+    .remember input{
+        @apply w-4 h-4;
+    }
+}
