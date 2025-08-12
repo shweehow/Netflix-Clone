@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer components{
+    .footer{
+        @apply py-8 px-[4%] max-w-[1000px] mx-auto;
+    }
+
+    .footer-icons{
+        @apply flex gap-5 my-10;
+    }
+
+    .footer-icons img{
+        @apply w-7 cursor-pointer;
+    }
+
+    .footer ul{
+        @apply grid grid-cols-4 gap-4 mb-8 text-sm;
+    }
+
+    .copyright-text{
+        @apply text-gray-500 text-xs;
+    }
+}
