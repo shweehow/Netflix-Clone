@@ -17,6 +17,14 @@
         @apply grid grid-cols-4 gap-4 mb-8 text-sm;
     }
 
+    .footer ul li{
+        @apply cursor-pointer;
+    }
+
+    .footer ul li:hover{
+        @apply underline;
+    }
+
     .copyright-text{
         @apply text-gray-500 text-xs;
     }
