@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer components{
+    .player{
+        @apply flex flex-col justify-center items-center h-screen;
+    }
+
+    .player img{
+        @apply absolute top-4 left-4 w-10 cursor-pointer;
+    }
+
+    .player iframe{
+        @apply rounded-lg w-4/5;
+    }
+
+    .player-info{
+        @apply flex justify-between w-4/5 px-1 gap-10 font-medium;
+    }
+
+    .player-info .date{
+        @apply shrink-0;
+    }
+}
