@@ -2,8 +2,7 @@
 
 @layer components{
     .navbar{
-        @apply fixed flex justify-between w-full py-5 px-[6%] text-gray-200 text-sm z-10;
-        background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
+        @apply fixed flex justify-between w-full py-5 px-[6%] text-gray-200 text-sm z-10 bg-[linear-gradient(180deg,rgba(0,0,0,0.7)_10%,transparent)];
     }
 
     .navbar-l{
@@ -51,7 +50,7 @@
     }
 
     .nav-dark{
-        @apply bg-gray-900;
+        @apply bg-neutral-900 bg-none;
     }
 }
 
