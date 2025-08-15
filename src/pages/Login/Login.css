@@ -2,11 +2,11 @@
 
 @layer components{
     .login{
-        @apply py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
+        @apply h-screen py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
     }
 
     .login-logo{
-        @apply w-40;
+        @apply w-32 mb-[8%];
     }
 
     .login-form{
