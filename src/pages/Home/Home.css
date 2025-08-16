@@ -6,7 +6,7 @@
     }
 
     .banner-img{
-        @apply w-full mask-l-from-0 to-75%;
+        @apply w-full min-h-[320px] mask-l-from-0 to-75% object-cover;
     }
 
     .hero-caption{
@@ -14,15 +14,15 @@
     }
 
     .caption-img{
-        @apply w-9/10 max-w-md mb-8;
+        @apply w-4/5 max-w-md mb-8;
     }
 
     .hero-caption p{
-        @apply max-w-2xl text-[17px] mb-5;
+        @apply hidden md:block max-w-2xl text-[17px] mb-5;
     }
 
     .hero-btns{
-        @apply flex gap-3 mb-12;
+        @apply flex gap-3 mb-5 md:mb-12;
     }
 
     .hero-btns .btn{
@@ -43,6 +43,10 @@
 
     .hero-btns .btn img{
         @apply w-6;
+    }
+
+    .hero-caption .titlecards{
+        @apply hidden lg:block;
     }
 
     .more-cards{
