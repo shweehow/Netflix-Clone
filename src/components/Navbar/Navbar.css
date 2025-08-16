@@ -2,7 +2,7 @@
 
 @layer components{
     .navbar{
-        @apply fixed flex justify-between w-full py-5 px-[6%] text-gray-200 text-sm z-10 bg-[linear-gradient(180deg,rgba(0,0,0,0.7)_10%,transparent)];
+        @apply fixed flex justify-between w-full py-5 px-5 xl:px-[6%] text-gray-200 text-sm z-10 bg-[linear-gradient(180deg,rgba(0,0,0,0.7)_10%,transparent)];
     }
 
     .navbar-l{
@@ -10,11 +10,11 @@
     }
 
     .navbar-l img{
-        @apply w-[90px];
+        @apply w-20 sm:w-24;
     }
     
     .navbar-l ul{
-        @apply flex gap-5;
+        @apply hidden lg:flex gap-5 text-nowrap;
     }
 
     .navbar-l ul li{
@@ -38,7 +38,7 @@
     }
 
     .navbar .dropdown{
-        @apply absolute hidden top-full right-0 w-max py-4 px-5 rounded-xs bg-gray-900 underline z-10;
+        @apply absolute hidden top-full -right-5 w-max py-4 px-5 rounded-xs bg-gray-900 underline z-10;
     }
 
     .navbar .dropdown p{
