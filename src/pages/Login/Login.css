@@ -2,19 +2,19 @@
 
 @layer components{
     .login{
-        @apply h-screen py-5 px-[8%] bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
+        @apply h-screen py-5 bg-black px-5 sm:px-[8%] sm:bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
     }
 
     .login-logo{
-        @apply w-32 mb-[8%];
+        @apply w-24 sm:w-32 mb-16;
     }
 
     .login-form{
-        @apply w-full max-w-[400px] p-13 m-auto rounded-sm bg-black/75;
+        @apply w-full max-w-[430px] sm:p-12 m-auto rounded-sm bg-black/75;
     }
 
     .login-form h1{
-        @apply text-2xl font-semibold mb-5;
+        @apply text-3xl font-bold mb-4;
     }
 
     .login-form input{
@@ -43,5 +43,13 @@
 
     .form-switch span{
         @apply ml-1 text-white font-medium cursor-pointer;
+    }
+
+    .login-spinner{
+        @apply flex w-full h-screen items-center justify-center;
+    }
+
+    .login-spinner img{
+        @apply w-[60px];
     }
 }
