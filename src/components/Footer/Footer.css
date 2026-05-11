@@ -1,31 +1,29 @@
 @import "tailwindcss";
 
-@layer components{
-    .footer{
-        @apply py-8 px-[4%] max-w-[1200px] mx-auto;
-    }
+.footer{
+    @apply py-8 px-[4%] max-w-[1200px] mx-auto;
+}
 
-    .footer-icons{
-        @apply flex gap-5 my-10;
-    }
+.footer-icons{
+    @apply flex gap-5 my-10;
+}
 
-    .footer-icons img{
-        @apply w-7 cursor-pointer;
-    }
+.footer-icons img{
+    @apply w-7 cursor-pointer;
+}
 
-    .footer ul{
-        @apply grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8 text-sm;
-    }
+.footer ul{
+    @apply grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8 text-sm;
+}
 
-    .footer ul li{
-        @apply cursor-pointer;
-    }
+.footer ul li{
+    @apply cursor-pointer;
+}
 
-    .footer ul li:hover{
-        @apply underline;
-    }
+.footer ul li:hover{
+    @apply underline;
+}
 
-    .copyright-text{
-        @apply text-gray-500 text-xs;
-    }
+.copyright-text{
+    @apply text-gray-500 text-xs;
 }

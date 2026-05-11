@@ -51,7 +51,3 @@
 .login-spinner img{
     @apply w-[60px];
 }
-
-@layer components{
-    
-}
