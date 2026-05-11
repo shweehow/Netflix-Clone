@@ -30,7 +30,7 @@ const Login = () => {
     <div className='login'>
       <img src={logo} className='login-logo' alt="" />
       <div className="login-form">
-        <h1>{signState}</h1>
+        <h1 className='text-3xl font-bold mb-4'>{signState}</h1>
         <form>
           {signState === "Sign Up" ? 
           <input value={name} onChange={(e)=>{setName(e.target.value)}} type="text" placeholder="Your Name" /> : <></>}
