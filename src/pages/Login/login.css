@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@layer components{}
+
 .login{
     @apply h-screen py-5 bg-black px-5 sm:px-[8%] sm:bg-[linear-gradient(#0000007e,#0000007e),url('/background_banner.jpg')] bg-cover;
 }
