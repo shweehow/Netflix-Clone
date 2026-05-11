@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@layer components{}
+
 .titlecards{
     @apply mt-[4%] lg:mt-12 mb-[4%] lg:mb-8;
 }

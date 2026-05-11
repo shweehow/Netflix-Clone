@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@layer components{}
+
 .footer{
     @apply py-8 px-[4%] max-w-[1200px] mx-auto;
 }

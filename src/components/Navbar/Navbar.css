@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@layer components{}
+
 .navbar{
     @apply fixed flex justify-between w-full py-5 px-5 xl:px-[6%] text-gray-200 text-sm z-10 bg-[linear-gradient(180deg,rgba(0,0,0,0.7)_10%,transparent)];
 }
